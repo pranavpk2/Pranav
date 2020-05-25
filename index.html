@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html class="text-center" style="scroll-behavior: smooth;">
+
+<head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Pranav</title>
+    <link rel="icon" href="aer.jpg" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anaheim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anonymous+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Concert+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/--mp---Masonry-Gallery-with-Loader.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Filterable-Gallery-with-Lightbox.css">
+    <link rel="stylesheet" href="assets/css/Filterable-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="assets/css/Gallery-With-Fanctbox-T1.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/Portfolio-harley-1.css">
+    <link rel="stylesheet" href="assets/css/Portfolio-harley.css">
+    <link rel="stylesheet" href="assets/css/Service-Box-Style-01.css">
+    <link rel="stylesheet" href="assets/css/Services.css">
+    <link rel="stylesheet" href="assets/css/Small-portfolio.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/TextOnVideo-1-1.css">
+    <link rel="stylesheet" href="assets/css/TextOnVideo-1.css">
+    <link rel="stylesheet" href="assets/css/Dynamically-Queue-Videos.css">
+    <link rel="stylesheet" href="assets/css/Video-Responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/978026b866.js" crossorigin="anonymous"></script>
+
+    <style>
+        .row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#more{
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  width: 100%;
+  border-color: rgba(255, 255, 255, 0);
+
+}
+#more:hover{
+  background-color: black;
+  color: white;
+}
+#more2{
+  background-color: rgb(0, 0, 0);
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 20px;
+  width: 100%;
+  border-color: rgba(255, 255, 255, 0);
+
+}
+#more2:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+#nav{
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 20px;
+  font-size: 3px;
+}
+#head{
+  padding: 0;
+}
+#navbarNavAltMarkup{
+  font-family: monospace;
+  font-size: 2px;
+  font-weight: lighter;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.fb-ic:hover{
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+.tw-ic:hover{
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+.gplus-ic:hover{
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+.li-ic:hover{
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+.ins-ic:hover{
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+.pin-ic:hover{
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0);
+}
+.mail:hover{
+  opacity: 0.7;
+}
+        </style>
+        <script src="extra.js">
+          
+        </script>
+        <script>
+          /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+        </script>
+</head>
+
+<body class="text-center" id="head">
+ 
+  
+ 
+    <section class="text-center d-flex flex-column justify-content-between" id="cov">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn fixed-top" onclick="closeNav()" style="margin-left: 0px;" >&times;</a>
+        <a href="#cov" style="font-size: 20px;">Home</a>
+        <a href="#abs" style="font-size: 20px;">About</a>
+        <a href="#services" style="font-size: 20px;">Services</a>
+        <a href="#portfolio" style="font-size: 20px;">Portfolio</a>
+        <a href="#sho" style="font-size: 20px;">showreel</a>
+        <a href="#cont" style="font-size: 20px;">Contact</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()"><img class="fixed-top" src="Movie-Left.gif" style="width: 50px; float:left; padding-left: 14px; padding-top: 22px;"  alt=""></span>
+      
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+        ...
+      </div>
+      
+        <div>
+          
+
+           <img id="Logo" src="assets/img/Logo_1.gif">
+        <h1 id="Name" style="font-family: Comfortaa, cursive;font-size: 50px;">Hi, I'm Pranav</h1>
+        <h2 class="text-monospace text-center" id="abo">Creative Director and Co-founder of Vector Lab,<br>Motion Designer, Filmmaker,Web Designer.<br></h2>
+        </div>
+        <div style="height: 375px;filter: blur(0px) brightness(76%);">
+            <div class="container" style="background-color: rgba(255,253,253,0);margin-top: -34px;margin-bottom: 165px;font-family: 'Concert One', cursive;"><a href="#"><img src="assets/img/Down02.gif" style="max-width: 438px;height: 205px;"></a></div>
+        </div>
+        <hr class="clearfix d-md-none rgba-white-light" style="">
+
+        <!-- Grid row-->
+        <div class="row pb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-12">
+    
+            <div class="mb-5 flex-center">
+    
+              <!-- Facebook -->
+              <a class="fb-ic" href="https://www.facebook.com/pranav.muthuten?ref=bookmarks" target="_blank">
+                <i class="fab fa-facebook-f fa-lg white-text mr-5" style="color: rgb(255, 255, 255); font-size: 20px;"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic" href="https://www.behance.net/pranavcalie623" target="_blank">
+                <i class="fab fa-behance fa-lg white-text mr-5" style="color: rgb(255, 255, 255); font-size: 20px;"> </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic" href="https://www.youtube.com/channel/UCFym5ITt1k4-RP4dVSlvGng?view_as=subscriber" target="_blank">
+                <i class="fa fa-youtube-play fa-lg white-text mr-5" style="color: rgb(255, 255, 255); font-size: 20px;"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic" href="https://www.linkedin.com/in/pranav-p-k-918584179/" target="_blank">
+                <i class="fab fa-linkedin-in fa-lg white-text mr-5" style="color: rgb(255, 255, 255); font-size: 20px;"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic" href="https://www.instagram.com/pranav_pk12/?hl=en" target="_blank">
+                <i class="fab fa-instagram fa-lg white-text mr-5" style="color: rgb(255, 255, 255); font-size: 20px;"> </i>
+              </a>
+              <!--Pinterest-->
+              <a class="pin-ic" href="https://www.pinterest.ca/pranavpk2/" target="_blank">
+                <i class="fab fa-pinterest fa-lg white-text" style="color: rgb(255, 255, 255); font-size: 20px;"> </i>
+              </a>
+    
+            </div>
+    
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+    </section>
+    <section style="padding-top: 20px;" id="abs">
+        <div class="container justify-content-center" id="con1" >
+            <h4 id="abou">About</h4>
+            <section id="about" style="padding-bottom: 31px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-group timeline">
+                                <li class="list-group-item">
+                                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/81364416_2697826723672078_262359451665694720_o%20(2).jpg" width="200px"></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading"></div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted"><br>Hi! I am a passionate and professional Motion Designer with over 6 years of experience in different fields of&nbsp;Multimedia. I have expert skills in software such as Adobe After Effects , Adobe Premiere
+                                                , Adobe Photoshop, Adobe Illustrator,&nbsp;Adobe&nbsp;Audition, Adobe Indesign, Maya, Cinema 4D,&nbsp;Davinci resolve,&nbsp;Visual Studio Code&nbsp;&amp; Keyshot pro.&nbsp;But my greatest skill is to recognize
+                                                customer wishes and translate them into a striking, innovative and professional design, whether animated or static.<br><br></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="services" style="padding-top: 35px; background-color: black; padding-bottom: 35px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" style="font-family: Comfortaa, cursive;font-size: 23px;color: rgb(255,255,255);padding-top: 6px;padding-bottom: 37px;">Services </h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4"><span class="fa-stack fa-4x" style="width: 172px;font-size: 38px;"><i class="fa fa-rocket fa-stack-1x fa-inverse" data-bs-hover-animate="jello"></i> </span>
+                    <h4 class="service-heading" style="color: rgb(255,255,255); font-size: 20px;">Motion Graphics<br></h4>
+                    <p class="text-muted">Motion graphics are digital footage of animation to create the illusion of dynamic 2d/3d Title/Logo animated graphics, Video Presentations, TV Ads, Theater Ads, etc..<br></p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x" style="font-size: 38px;"><i class="fa fa-film fa-stack-1x fa-inverse" data-bs-hover-animate="jello" style="font-size: 38px;color: rgb(255,255,255);"></i> </span>
+                    <h4 class="service-heading" style="color: rgb(255,255,255);  font-size: 20px">Video Editing<br></h4>
+                    <p class="text-muted"><strong>Video editing</strong>&nbsp;is the manipulation and arrangement of video&nbsp;shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements.<br></p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x" style="font-size: 38px;"><i class="fa fa-facebook fa-stack-1x fa-inverse" data-bs-hover-animate="jello"></i> </span>
+                    <h4 class="service-heading" style="color: rgb(255,255,255);  font-size: 20px">Social Media Marketing<br></h4>
+                    <p class="text-muted">Social Media Marketing is the process of gaining website traffic or attention through social media sites, driven by word-of-mouth and resulting in “earned media.<br></p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4"><span class="fa-stack fa-4x" style="font-size: 38px;"><i class="fa fa-pencil fa-stack-1x fa-inverse" data-bs-hover-animate="jello"></i> </span>
+                    <h4 class="service-heading" style="color: rgb(255,255,255);  font-size: 20px">Creative Designing<br></h4>
+                    <p class="text-muted">Graphic design is the process of visual communication, and problem-solving through the use of type, space, image and color. &nbsp;Movie Posters, Logo Creations, Brochures, Flyers, Corporate Designs, etc.<br></p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x" style="font-size: 38px;"><i class="fa fa-desktop fa-stack-1x fa-inverse" data-bs-hover-animate="jello"></i> </span>
+                    <h4 class="service-heading" style="color: rgb(255,255,255);  font-size: 20px">Web Designing<br></h4>
+                    <p class="text-muted">Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services.<br></p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x" style="font-size: 38px;"><i class="fa fa-optin-monster fa-stack-1x fa-inverse" data-bs-hover-animate="jello"></i> </span>
+                    <h4 class="service-heading" style="color: rgb(255,255,255);  font-size: 20px">Animation<br></h4>
+                    <p class="text-muted">Animation is the process of making the illusion of motion and change, by means of the rapid display of a sequence of static images that minimally differ from each other.&nbsp;<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #ffffff; padding-top: 45px; padding-bottom: 20px;" id="portfolio" >
+      <h3 style="font-family: Comfortaa, cursive;font-size: 23px;color: rgb(0, 0, 0);padding-top: 10px;padding-bottom: 37px;">Portfolio</h3>
+        <div class="row">
+            <div class="column col-md-3 col-12">
+              <img src="c.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="d.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="f-01.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="b-01.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="a-01.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="Car.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="Scull.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </div>
+            <div class="column col-md-3 col-12">
+              <img src="03-01.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+          </div>
+          
+          <!-- The Modal/Lightbox -->
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="c.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="d.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="f-01.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="b-01.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="a-01.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">6/ 8</div>
+                <img src="Car.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="Scull.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="03-01.jpg" style="width:100%">
+              </div>
+          
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+              <!-- Caption text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+          
+              <!-- Thumbnail image controls -->
+              
+          
+        
+          
+    </section>
+    <section style="padding-bottom: 20px;">
+    <div style="padding-top: 10px;">
+      <a href="https://www.behance.net/pranavcalie623" class="btn btn-primary btn-lg active " role="button" aria-pressed="true" id="more" target="_blank">view more</a>
+    </div>
+  </section>
+  <section style="background-color: black; padding-top: 20px;" id="sho">
+    <h3 style="font-family: Comfortaa, cursive;font-size: 23px;color: rgb(255,255,255);padding-top: 6px;padding-bottom: 27px; padding-top: 27px;" >Showreel</h3>
+    <div class="container">
+      <div class="embed-responsive embed-responsive-16by9" style="width: 100%;">
+        <iframe style="padding-top: 20px;" width="560" height="315" src="https://www.youtube.com/embed/TTHpToAaWaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div style="padding-top: 10px;">
+      <a href="https://www.youtube.com/channel/UCFym5ITt1k4-RP4dVSlvGng?view_as=subscriber" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" id="more2" >view more</a>
+    </div>
+  </section>
+  
+  <section>
+    <hr class="clearfix d-md-none rgba-white-light" >
+
+    <!-- Grid row-->
+    <div class="row pb-3" id="cont">
+
+      <!-- Grid column -->
+      <div class="col-md-12" style="padding-top: 5em;">
+
+        <div class="mb-0 flex-center " style="margin-bottom: 0rem">
+
+          <!-- Facebook -->
+          <a class="fb-ic" href="https://www.facebook.com/pranav.muthuten?ref=bookmarks" target="_blank">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4" style="color: rgb(0, 0, 0);" > </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="https://www.behance.net/pranavcalie623" target="_blank">
+            <i class="fab fa-behance fa-lg white-text mr-4" style="color: rgb(0, 0, 0);"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic" href="https://www.youtube.com/channel/UCFym5ITt1k4-RP4dVSlvGng?view_as=subscriber" target="_blank">
+            <i class="fa fa-youtube-play fa-lg white-text mr-4" style="color: rgb(0, 0, 0);"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic" href="https://www.linkedin.com/in/pranav-p-k-918584179/" target="_blank">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-4" style="color: rgb(0, 0, 0);"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="https://www.instagram.com/pranav_pk12/?hl=en" target="_blank">
+            <i class="fab fa-instagram fa-lg white-text mr-4" style="color: rgb(0, 0, 0);"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic" href="https://www.pinterest.ca/pranavpk2/" target="_blank">
+            <i class="fab fa-pinterest fa-lg white-text" style="color: rgb(3, 3, 3);"> </i>
+          </a>
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    
+      <div class="row" style="color: rgb(0, 0, 0);">
+                <div class="col-md-6 col-lg-8 mx-auto" >
+                 <p class="mail" style="font-family: Comfortaa, cursive;font-size: 23px;color: rgb(0, 0, 0);padding-top: 6px;padding-bottom: 60px; padding-top: 10px;"><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">+91 8891 389 063</span> | pranavcalicut26@gmail.com</p>
+                  
+        </div>
+</section>
+  
+    
+    <section>
+        <footer id="footerpad">
+            <div class="container">
+                <div class="row" style="color: rgb(0, 0, 0);">
+                    <div class="col-md-6 col-lg-8 mx-auto">
+                        <p class="copyright text-muted text-center mb-5"> &copy; 2020 All Rights Reserved. Pranav</p></div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/digistate/resouces/master/multipleFilterMasonry.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdn.rawgit.com/desandro/masonry/master/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/Dynamically-Queue-Videos.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="assets/js/--mp---Masonry-Gallery-with-Loader.js"></script>
+    <script src="assets/js/Basic-fancyBox-Gallery.js"></script>
+    <script src="assets/js/Filterable-Gallery-with-Lightbox.js"></script>
+    <script src="assets/js/Filterable-Gallery.js"></script>
+    <script src="assets/js/Gallery-With-Fanctbox-T1.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    <script src="assets/js/Portfolio-harley.js"></script>
+</body>
+
+</html>
